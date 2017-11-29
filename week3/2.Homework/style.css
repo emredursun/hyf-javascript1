@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(182, 238, 113, 0.767);
+    padding: 6vh 1vw 7vh 6vw;
+    font-family: 'Frijole', cursive;
+}
+
+main {
+    margin: auto;
+    display: grid;
+    grid-template: repeat(4, 25%) / repeat(3, 1fr);
+    justify-content: space-between; 
+}
+
+ul {
+    padding: 3vh 2vw;
+    margin-bottom: 5vh;
+}
+
+li {
+    padding: 1vh;
+    margin-left: 2.5vw;
+    color: rgb(75, 20, 146);
+    font-size: 110%;
+    list-style-type: circle;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+h2  {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 2.5em;
+    color: rgb(94, 39, 107);
+    margin-bottom: 1vh;
+}
+
+img {
+    width: 70%;
+    height: 50vh;
+    margin-top: 2vh;
+    border: 3px solid green;
+}
